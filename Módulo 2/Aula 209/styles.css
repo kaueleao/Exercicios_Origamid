@@ -1,0 +1,31 @@
+.cidades {
+    color: green;
+}
+
+.filmes-hoje {
+    color:brown;
+}
+
+.filmes-amanha{
+    color: blue;
+}
+
+div {
+    /* 
+    Desta forma definimos: 
+    - Top/Bottom = 20px
+    - Right/Left = 40px
+    */
+    padding: 20px 40px;
+
+    /* 
+    Desta forma definimos: 
+    - Top = 30px
+    - Right = 100px
+    - Bottom = 60px
+    - Left = 200px
+    */
+    margin: 30px 100px 60px 200px;
+
+}
+
