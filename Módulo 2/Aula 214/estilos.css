@@ -1,0 +1,52 @@
+/* Arquivo CSS da Aula 214 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    background-color: #111;
+    height: 210px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.box h2 {
+    color: white;   
+}
+
+.box h3 {
+    color: #b2b2b2;
+}
+
+.box span {
+    color: #febe01;
+}
+
+.btn-carro {
+    background-color: #febe01;
+    color: #332200;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.btn-bicicleta {
+    background-color: #febe01;
+    color: #332200;
+    height: 50px;
+    width: 170px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+}
