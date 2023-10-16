@@ -1,0 +1,134 @@
+/* #################### RESET DO PADRÃO HTML #################### */
+body {
+    /*
+    A definição desta forma do font-family indica que o sistema vai buscar as fontes na ordem informada,
+    não localizando nenhuma das indicadas, ira utilizar a padrão uma genérica com sans-serif. 
+    */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px; /* Esse elemento é usado para tirar a margem padrão definida pelo navegador */
+    background: #f7f7f7;
+    /*
+    Como esse projeto é pequeno, o body foi definido como display: grid para alianhar os elementos ao centro.
+    */
+    display: grid; 
+    gap: 60px;
+    justify-items: center; /* Usado para definir todos o alinhamento dos elementos ao centro */
+    margin-top: 60px;
+  }
+  
+  img {
+    max-width: 100%; /* Usado para que a imagem não cresça mais do que 100% da tela */
+    display: block; /* Usado para que o ocupe toda a largura disponível */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3 {
+    margin: 0px; /* Usado para remover a margem padrão do navegador desses elementos */
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.3; /* Elemento usado para dar espaçamento entre as linhas */
+  }
+  /* #################################################################################################### */
+  
+  /* #################### MENU #################### */
+  .menu {
+    display: flex;
+    flex-wrap: wrap; /* Usado para quebrar o conteudo em uma nova linha */
+    gap: 20px;
+    justify-content: center; /* Usado para sempre manter os elementos alinhados ao centro */
+  }
+  
+  .menu a {
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #000000;
+    text-transform: uppercase; /* Usado para colocar todas letras em maiusculo*/
+  }
+  /* #################################################################################################### */
+  
+  /* #################### CONTEUDO #################### */
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Distribuição do espaço */
+    max-width: 1000px; /* Tamanho Máximo do conteúdo */
+    min-width: 100px;
+  }
+  /* #################################################################################################### */
+  
+  /* #################### INTRODUÇÃO #################### */
+  .introducao { 
+    background: #fff;
+    padding: 40px;
+    text-align: right;
+    position: relative; /* O elemento é posicionado em relação à sua posição normal no fluxo */
+    display: grid;
+    gap: 20px;
+    align-content: center; /* Usado para alinhar o conteúdo ao centro */
+    justify-items: end; /* Usado para alinhar os itens alinhados a ponta */
+  }
+  
+  .detalhe {
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute; /* Usado para posicionar o elemento fora do contexto dos demais */
+    top: 30px;
+    right: -30px;
+  }
+  
+  .botao {
+    background: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  /* #################################################################################################### */
+  
+  /* #################### SUBTÍTULO #################### */
+  .subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center; /* Usado para alinhar o item ao centro */
+  }
+  /* #################################################################################################### */
+  
+  /* #################### VANTAGENS #################### */
+  .vantagens {
+    background: #fff;
+    padding: 40px;
+  }
+  
+  .vantagens-item {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Distribuição do espaço. O auto foi usado para pegar exatamente o tamanho do  ícone */
+    gap: 10px 20px; /*1º Valor para as linhas e 2º valor para as colunas */
+    padding: 20px;
+  }
+  
+  .vantagens-item p {
+    grid-column: 2; /* Usado para indicar que o item deve ser posicionado na 2ª coluna (1fr)*/ 
+  }
+  /* #################################################################################################### */
+  
+  /* #################### RODAPE #################### */
+  .rodape {
+    background: #fff;
+    width: 100%; /* Usado para forçar a expandir o elemento em 100% */
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box; /* Elemento usado para que o elemento não estoure 100% do seu tamanho */
+  }
+  /* #################################################################################################### */
